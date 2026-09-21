@@ -1,0 +1,15 @@
+sources:
+  - name: src
+    database: sourcedb
+    schema: mkmall
+    tables: 
+      - name: customers
+        columns: 
+          - name: c_custkey
+            data_tests: 
+              - unique
+              - not_null
+
+      - name: regions
+      - name: nations
+      - name: orders

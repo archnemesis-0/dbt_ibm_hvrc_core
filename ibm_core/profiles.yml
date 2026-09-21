@@ -1,0 +1,13 @@
+my_new_project:
+  outputs:
+    dev:
+      account: WJJNXFA-PFB43164
+      database: analytics
+      password: Sachin@10
+      role: analyticsengineer
+      schema: dbt_core_hvrc
+      threads: 3
+      type: snowflake
+      user: sachin
+      warehouse: transform_wh
+  target: dev
